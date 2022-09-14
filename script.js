@@ -1,6 +1,5 @@
-window.addEventListener('ProtocolLaunchStartSelenium', () => {
-    const iframe = $('iframe#gamelaunch');
-    const url = iframe.attr('src');
-    iframe.remove();
-    $('body').append($("<iframe id='gamelaunch' class='hidden'></iframe>").attr('src', url.replace('InApp', 'InBrowser')));
-});
+const b = typeof browser !== 'undefined' ? browser : chrome;
+
+const script = document.createElement('script');
+script.src = b.runtime.getURL('window.js');
+document.documentElement.appendChild(script);

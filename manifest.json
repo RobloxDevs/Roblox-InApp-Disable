@@ -1,12 +1,15 @@
 {
-    "manifest_version": 3,
+    "manifest_version": 2,
     "name": "Roblox-InApp-Disable",
     "version": "0.0.1",
     "description": "Roblox-InApp-Disable",
+    "web_accessible_resources": [
+        "window.js"
+    ],
     "content_scripts": [
         {
             "matches": ["*://*.roblox.com/games/*"],
-            "js": ["jquery-3.6.1.min.js", "script.js"],
+            "js": ["script.js"],
             "run_at": "document_end"
         }
     ]
