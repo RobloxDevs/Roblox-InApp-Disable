@@ -4,7 +4,7 @@
 // @version      0.1
 // @description  Disable InApp for roblox
 // @author       RobloxDevs
-// @match        https://*.roblox.com/games/*
+// @match        https://*.roblox.com/*
 // @grant        none
 // ==/UserScript==
 
