@@ -1,3 +1,6 @@
+# NO LONGER WORKING - Roblox patched it.
+## Roblox now launches with InApp mode even specifying InBrowser mode.
+
 # Roblox-InApp-Disable
 A simple chrome extension to disable InApp mode.
 
